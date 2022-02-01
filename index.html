@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>to do list</title>
+    <link rel="stylesheet" href="vendor/css/all.min.css">
+
+    <link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/css/main.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+           
+
+            <div class="contain col-md-6 m-auto mt-5 p-5">
+              <div class="flex"> <h1 class="m-auto m-5 d-block">To do list</h1>
+                    <hr></div> 
+               
+
+                 
+
+                        <div class="flexBox d-flex justify-content-evenly align-items-end ">
+                            <input id="taskInput" type="text" placeholder="Entre yout task" class="form-control left rounded-3 m-3">
+                            
+                            <button id="btn" disabled onclick="addTask()" class=" m-3 btn btn-danger  right rounded-circle">+</button>
+                        </div>
+                        <div id="alert" class="d-none alert alert-danger"> Task name should start with  char and must be between 3-14 char and number</div>
+                        <div id="taskCartona">
+
+
+
+                        </div>
+                   
+              
+                   
+            </div>
+
+               
+              
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="vendor/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/js/main.js"></script>
+
+</body>
+</html>
